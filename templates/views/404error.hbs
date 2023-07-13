@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{>links_upper}}
+  <title>404 not found!</title>
+  <style>
+    img.img-fluid.rounded-top {
+      width: 100px;
+      filter: grayscale(0%) contrast(100%) brightness(100%) sepia(100%) hue-rotate(-50deg) saturate(1000%) blur(0px);
+    }
+
+    h1 {
+      font-size: calc(2.375rem + 1.5vw);
+      color: skyblue;
+    }
+
+  </style>
+</head>
+
+<body>
+  {{>navbar}}
+
+  <!-- main header -->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-12 col-12 main_header_left align-items-center">
+        <figure class="image">
+          <img src="./images/Number 4.png" class="img-fluid rounded-top" alt="" />
+          <img src="./images/Number 0.png" class="img-fluid rounded-top" alt="" />
+          <img src="./images/Number 4.png" class="img-fluid rounded-top" alt="" />
+        </figure>
+        <p>Welcome to RJ Weather app</p>
+        <h1>{{errMsg}}</h1>
+        <p style="margin-top: 10px">We looked everywhere for this Page</p>
+        <p>Are you sure the website url is correct?</p>
+        <p>Get in Touch with the site owner.</p>
+        <a href="/"><button class="button">Go Back</button></a>
+      </div>
+    </div>
+  </div>
+
+  {{>links_footer}}
+</body>
+
+</html>

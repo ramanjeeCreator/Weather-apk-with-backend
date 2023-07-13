@@ -1,0 +1,17 @@
+{
+  "name": "2.-complete-website-with-backend",
+  "version": "1.0.0",
+  "description": "This is my 2nd Practice website and it is fully created using express...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raman Jee",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "sass": "^1.63.6"
+  }
+}
